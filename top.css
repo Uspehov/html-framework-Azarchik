@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.flex-row, .flex-column {
+  display: flex; }
+
+.flex-row {
+  flex-direction: row; }
+
+.flex-column {
+  flex-direction: column; }
+
+.float-left {
+  float: left;
+  display: block; }
+
+.float-right {
+  float: right;
+  display: block; }
+
+.absolute {
+  position: absolute; }
+
+.relative {
+  position: relative; }
+
+.marg8 {
+  margin: 8px; }
+
+.marg16 {
+  margin: 16px; }
+
+.marg32 {
+  margin: 32px; }
+
+.padd8 {
+  padding: 8px; }
+
+.padd16 {
+  padding: 16px; }
+
+.padd32 {
+  padding: 32px; }
+
+.input {
+  width: 25%;
+  height: 5%;
+  background-color: red;
+  color: white; }
+  .input:hover {
+    background-color: green; }
+  .input:disabled {
+    background-color: gray;
+    cursor: not-allowed; }
+  .input:invalid {
+    background-color: yellow; }
+  .input:active {
+    background-color: blue; }
+  .input[readonly="readonly"] {
+    display: block;
+    cursor: not-allowed;
+    background-color: black;
+    color: red;
+    width: 10%; }
+
+h1 {
+  font-size: 30px;
+  color: red; }
+
+h2 {
+  font-size: 25px;
+  color: orange; }
+
+h3 {
+  font-size: 30px;
+  color: purple; }
+
+.label-small {
+  font-size: 10px;
+  color: black; }
+
+.label-medium {
+  font-size: 15px;
+  color: black; }
+
+.label-large {
+  font-size: 20px;
+  color: black; }
+
+.textarea {
+  width: 20%;
+  height: 5%;
+  background-color: yellow;
+  color: black; }
+  .textarea:hover {
+    background-color: green; }
+  .textarea:disabled {
+    background-color: gray;
+    cursor: not-allowed; }
+  .textarea:invalid {
+    background-color: red; }
+  .textarea:active {
+    background-color: purple; }
+  .textarea[readonly="readonly"] {
+    display: block;
+    cursor: not-allowed;
+    background-color: black;
+    color: red;
+    width: 10%; }
+
+.button {
+  width: 10%;
+  height: 70px;
+  color: white;
+  background-color: black;
+  cursor: pointer; }
+  .button:disabled {
+    background-color: gray;
+    cursor: not-allowed; }
+  .button:active {
+    background-color: green; }
+
+.button-big {
+  width: 20%;
+  height: 120px;
+  color: white;
+  background-color: red;
+  cursor: pointer; }
+  .button-big:disabled {
+    background-color: gray;
+    cursor: not-allowed; }
+  .button-big:active {
+    background-color: green; }
+
+.button-small {
+  width: 5%;
+  height: 50px;
+  color: white;
+  background-color: black;
+  cursor: pointer; }
+  .button-small:disabled {
+    background-color: gray;
+    cursor: not-allowed; }
+  .button-small:active {
+    background-color: green; }
+
+/*# sourceMappingURL=top.css.map */

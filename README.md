@@ -9,3 +9,35 @@
 
 Для флексов были реализованы классы  flex, flex-row, flex-column, space-between, y-center, x-start, x-end. 
 В разделе демонстрация флексов показано применение этих классов на практике.
+
+
+var xhr = new XMLHttpRequest()
+xhr.open(
+  'GET',
+  '//developer.nytimes.com/lists.json','key=<0522b6a622be40e8b2d14993b0c82967>',
+  true
+)
+xhr.send()
+
+xhr.onreadystatechange = function() {
+  if (xhr.readyState != 4) {
+    return
+  }
+
+  if (xhr.status === 200) {
+    console.log('result', xhr.responseText)
+  } else {
+    console.log('err', xhr.responseText)
+  }
+}
+ƒ () {
+  if (xhr.readyState != 4) {
+    return
+  }
+
+  if (xhr.status === 200) {
+    console.log('result', xhr.responseText)
+  } else {
+    console.log('err', xhr.responseText)
+  }
+}
